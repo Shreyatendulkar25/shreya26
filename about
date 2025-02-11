@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Git</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #333; color: white; padding: 1rem; text-align: center; }
+        main { padding: 2rem; background: #f4f4f4; }
+        footer { background: #333; color: white; text-align: center; padding: 1rem; }
+        h1, h2 { color: #333; }
+        @media (max-width: 768px) { main { padding: 1rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>About Git</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>What is Git?</h2>
+            <p>Git is a distributed version control system that allows multiple developers to work on a project simultaneously. It helps track changes in the codebase and enables easy collaboration and code management.</p>
+        </section>
+
+        <section>
+            <h2>Key Features of Git</h2>
+            <ul>
+                <li>Version control: Tracks and manages changes to files.</li>
+                <li>Branching and merging: Allows experimentation without affecting the main project.</li>
+                <li>Distributed: Every developer has a full copy of the repository.</li>
+                <li>Collaboration: Enables multiple contributors to work on different parts of a project.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Common Use Cases</h2>
+            <ul>
+                <li>Managing source code in software development projects.</li>
+                <li>Collaborating with other developers on open-source projects.</li>
+                <li>Tracking changes in websites, documentation, and other projects.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Company</p>
+    </footer>
+
+</body>
+</html>
